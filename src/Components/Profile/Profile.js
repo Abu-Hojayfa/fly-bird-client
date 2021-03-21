@@ -40,7 +40,7 @@ const Profile = () => {
           <h3>
             On Going order : 2
           </h3>
-          <button onClick={logOut} className="logOut">
+          <button onClick = {logOut} className="logOut">
             Log Out
           </button>
         </div>
