@@ -1,0 +1,124 @@
+.desBody{
+  width: 90vw !important;
+  height: 100vh !important;
+  margin: auto;
+  margin-top: 110px;
+  overflow: hidden !important;
+  border-top: 1px solid black;
+}
+.desMain{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.showForm{
+  background-color: #EFEFEF;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 350px;
+}
+.showForm p{
+  margin: 0;
+  font-size: 18px;
+  color: rgb(94, 92, 92);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.showForm input{
+  width: 90%;
+  height: 30px;
+}
+.showForm input {
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.showForm button{
+  width: 94%;
+  height: 45px;
+  margin-top: 25px;
+  color: azure;
+  background-color: #FF6E40;
+  border: 1px solid #FF6E40;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.map{
+  margin-left: 100px ;
+  margin-top: 20px;
+  width: 600px !important;
+}
+.timeLine ul li{
+  list-style: none;
+  font-size: 24px;
+  border-left: 1px solid;
+  padding: 10px;
+  color: rgb(243, 243, 243);
+  padding-right: 0 !important;
+}
+.timeLine ul li:nth-child(1){
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+.timeLine ul li:nth-child(2){
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+.timeLine{
+  background-color: #FF6E40;
+  padding: 10px;
+  border-radius: 10px;
+}
+.dot{
+  height: 15px;
+  width: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+}
+.timeLine ul li:nth-child(1) span{
+  transform:translate3d(-18px , 0, 0); 
+}
+.timeLine ul li:nth-child(2) span{
+  transform:translate3d(-18px , 0, 0); 
+}
+.vehicle{
+  display: flex;
+  width: 88%;
+  background-color: white;
+  padding: 10px;
+  margin-top: 15px; 
+  border-radius: 10px;
+
+}
+.vehicle img{
+  width: 40px;
+}
+.dummy{
+  padding-left: 20%;
+  width: 30px !important;
+}
+.vehicle .people{
+  padding-right: 20% ;
+  color: black !important;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.desti{
+  cursor: pointer;
+}
+.vehicleName{
+  color: black !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+.money{
+  color: black !important;  
+  font-weight: bold;
+}

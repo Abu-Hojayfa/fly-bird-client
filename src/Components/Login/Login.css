@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+.LogBody {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.LogBody section {
+  position: relative;
+  min-height: 95.8vh;
+  background-color: #94E1F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.LogBody section .container {
+  position: relative;
+  width: 800px;
+  height: 620px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.LogBody section .container .user {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.LogBody section .container .user .imgBx {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: #94E1F5;
+  transition: 0.5s;
+}
+
+.LogBody section .container .user .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.LogBody section .container .user .formBx {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  transition: 0.5s;
+}
+
+.LogBody section .container .user .formBx form h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.LogBody section .container .user .formBx form input ,
+.LogBody section .container .user .formBx  input[type='submit'] {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background: #f5f5f5;
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.LogBody section .container .user .formBx  input[type='submit'] {
+  max-width: 100px;
+  background: #FF6E40;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.LogBody section .container .user .formBx .signup {
+  position: relative;
+  margin-top: 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: rgb(3, 3, 3);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.LogBody section .container .user .formBx .signup p {
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 15px;
+  color: #FF6E40;
+  cursor: pointer;
+}
+
+.LogBody section .container .signupBx {
+  pointer-events: none;
+}
+
+.LogBody section .container.active .signupBx {
+  pointer-events: initial;
+}
+
+.LogBody section .container .signupBx .formBx {
+  left: 100%;
+}
+
+.LogBody section .container.active .signupBx .formBx {
+  left: 0;
+}
+
+.LogBody section .container .signupBx .imgBx {
+  left: -100%;
+}
+
+.LogBody section .container.active .signupBx .imgBx {
+  left: 0%;
+}
+
+.LogBody section .container .signinBx .formBx {
+  left: 0%;
+}
+
+.LogBody section .container.active .signinBx .formBx {
+  left: 100%;
+}
+
+.LogBody section .container .signinBx .imgBx {
+  left: 0%;
+}
+
+.LogBody section .container.active .signinBx .imgBx {
+  left: -100%;
+}
+
+@media (max-width: 991px) {
+  .LogBody section .container {
+    max-width: 400px;
+  }
+
+  .LogBody section .container .imgBx {
+    display: none;
+  }
+
+  .LogBody section .container .user .formBx {
+    width: 100%;
+  }
+}
+.oneClick img{
+  width: 55px;
+  padding: 0 10px;
+}
+.fb{
+  width: 40px !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+.oneClick{
+  display: flex;
+  width: 300px;
+  padding: 5px 5px 0 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+.oneClick p{
+  font-size: 16px;
+}
+
+.autoLogin>p{
+  font-size: 22px;
+  margin-bottom: 0;
+  padding-left: 140px;
+  color: #FF6E40;
+}
+.oneClick:hover {
+  background-color: #ec8667;
+  color: #fff;
+  transition: 0.6s;
+}

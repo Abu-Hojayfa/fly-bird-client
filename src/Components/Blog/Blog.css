@@ -1,0 +1,44 @@
+.blogBody {
+  padding-top: 150px;
+  color: black;
+  background-image: linear-gradient(to right top, #a0e4f6, #88dcf4, #6dd4f2); 
+  padding-bottom: 50px;
+}
+.blog{
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: rgb(75, 166, 207);
+  padding: 15px;
+  border-radius: 10px;
+}
+.bloggerDes{
+  display: flex;
+}
+.bloggerDes h2 , .bloggerDes p{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.bloggerDes h2 {
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 25px;
+}
+.bloggerDes  div{
+  padding-left: 10px ;
+}
+.blog h3{
+  color: rgb(56, 56, 56);
+  font-weight: 500;
+}
+.blog a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #00132c;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.blog a:hover{
+  background-color: #1b65c6;
+  color: white;
+}
