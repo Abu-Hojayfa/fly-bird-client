@@ -30,5 +30,5 @@ export class MAp extends Component  {
 
 
 export default GoogleApiWrapper({
-  apiKey: ('AIzaSyC_H_fns6duicUQFqQxYDlGT-RMEZbSq1k')
+  apiKey: ('xxxxxxxxxxxxx')
 })(MAp)
